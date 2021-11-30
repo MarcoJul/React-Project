@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Project/static/css/main.90ae075a.chunk.css",
+    "main.js": "/React-Project/static/js/main.88790379.chunk.js",
+    "main.js.map": "/React-Project/static/js/main.88790379.chunk.js.map",
+    "runtime-main.js": "/React-Project/static/js/runtime-main.d89e3bd3.js",
+    "runtime-main.js.map": "/React-Project/static/js/runtime-main.d89e3bd3.js.map",
+    "static/js/2.f0f7b630.chunk.js": "/React-Project/static/js/2.f0f7b630.chunk.js",
+    "static/js/2.f0f7b630.chunk.js.map": "/React-Project/static/js/2.f0f7b630.chunk.js.map",
+    "index.html": "/React-Project/index.html",
+    "static/css/main.90ae075a.chunk.css.map": "/React-Project/static/css/main.90ae075a.chunk.css.map",
+    "static/js/2.f0f7b630.chunk.js.LICENSE.txt": "/React-Project/static/js/2.f0f7b630.chunk.js.LICENSE.txt",
+    "static/media/ICN_Add.50a7e775.svg": "/React-Project/static/media/ICN_Add.50a7e775.svg",
+    "static/media/ICN_Copy.513d6706.svg": "/React-Project/static/media/ICN_Copy.513d6706.svg",
+    "static/media/ICN_Dismiss.7a2ac6f8.svg": "/React-Project/static/media/ICN_Dismiss.7a2ac6f8.svg",
+    "static/media/ICN_Done.d47771aa.svg": "/React-Project/static/media/ICN_Done.d47771aa.svg",
+    "static/media/ICN_QuoteMarks.8b037cf8.svg": "/React-Project/static/media/ICN_QuoteMarks.8b037cf8.svg",
+    "static/media/ICN_Reset.4f2f5424.svg": "/React-Project/static/media/ICN_Reset.4f2f5424.svg",
+    "static/media/ICN_Search.90c6d3df.svg": "/React-Project/static/media/ICN_Search.90c6d3df.svg",
+    "static/media/ICN_Trash.81d544b4.svg": "/React-Project/static/media/ICN_Trash.81d544b4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d89e3bd3.js",
+    "static/js/2.f0f7b630.chunk.js",
+    "static/css/main.90ae075a.chunk.css",
+    "static/js/main.88790379.chunk.js"
+  ]
+}
