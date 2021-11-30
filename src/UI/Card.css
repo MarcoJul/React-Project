@@ -1,0 +1,15 @@
+.card {
+  /* border: 1px solid #333; */
+  border-radius: 1rem;
+  background-color: #fff;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  /* box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.1); */
+  transition: all 0.5s;
+}
+
+.card:hover {
+  box-shadow: inset 0px 0px 12px 0px rgba(197, 197, 197, 1);
+}

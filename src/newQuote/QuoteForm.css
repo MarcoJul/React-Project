@@ -1,0 +1,152 @@
+/*******************
+ FORM BOX STYLE
+********************/
+
+form {
+  position: relative;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #fff;
+  padding: 2.4rem 2.4rem 4.8rem 2.4rem;
+  height: 34rem;
+}
+
+.new-quote_text {
+  margin-bottom: 1.6rem;
+  width: 100%;
+}
+
+.new-quote_text label {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+.new-quote_text textarea {
+  height: 12rem;
+  width: 100%;
+  border: none;
+  font-family: "Source Serif Pro", serif;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 2.4rem;
+  resize: none;
+}
+
+.new-quote_author label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.new-quote_author input {
+  width: 100%;
+  border: none;
+  font-size: 1.6rem;
+  font-family: inherit;
+  position: relative;
+  border-bottom: 1px solid #3e3e3e;
+  padding-bottom: 10px;
+}
+
+.author-message {
+  font-size: 1.1rem;
+}
+
+/*******************
+ BUTTONS SMALL
+********************/
+
+.new-quote_actions {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  bottom: -24px;
+  right: 24px;
+}
+
+#btn-add {
+  background-color: #3e3e3e;
+}
+
+#btn-add svg path {
+  fill: #fff;
+}
+
+/*******************
+ ICON EXPANDED 
+********************/
+
+.icons-form__expanded {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+  padding: 0 16px;
+  bottom: -24px;
+  left: 0;
+  cursor: pointer;
+}
+
+.icon-container-form__expanded {
+  border-radius: 1000px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  transition: border 0.4s;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
+}
+
+.icon-container-form__expanded:hover {
+  border: 1px solid #3e3e3e;
+  background-color: #f3f3f3;
+  box-shadow: none;
+}
+
+.icon-container-form__expanded:last-child {
+  background-color: #3e3e3e;
+}
+
+.icon-container-form__expanded:last-child:hover {
+  background-color: #525252;
+  border: 1px solid #fff;
+}
+
+#btn-add__expanded {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+#btn-add__expanded svg path {
+  fill: #fff;
+}
+
+.cancel-icon__expanded {
+}
+
+/*******************
+ INVALID CAUSE
+********************/
+
+.invalid {
+  outline: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.048);
+}
+
+.invalid::placeholder {
+  color: red;
+}

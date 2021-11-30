@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*******************
+  GENERAL
+********************/
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&family=Source+Serif+Pro:ital,wght@1,300&display=swap");
+
+/* font-family: 'Source Code Pro', monospace;
+font-family: 'Source Serif Pro', serif; */
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-family: "Source Code Pro", monospace;
+  font-size: 62.5%;
+  letter-spacing: 1.1;
+}
+
+body {
+  margin: 0;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+/*******************
+  HEADER
+********************/
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem 0 2.4rem;
+}
+
+.logo {
+  height: 5rem;
+  cursor: pointer;
+}
+
+.menu,
+.account {
+  height: 3.2rem;
+  margin: 0.8rem;
+}
+
+/*******************
+  MEDIA QUERIES
+********************/
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 0 16px;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 80px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  /* body {
+    background-color: green;
+  } */
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1760px;
+    margin: 0 auto;
+  }
 }

@@ -1,0 +1,98 @@
+/*******************
+FORM BOX STYLE
+********************/
+
+.inner-box {
+  padding: 2.4rem;
+  width: 100%;
+  position: relative;
+}
+
+.text-quote__list {
+  color: #333;
+  font-size: 2.4rem;
+  font-family: "Source Serif Pro", serif;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.author-quote {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+/*******************
+ ICONS
+********************/
+
+.icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(50%);
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+  gap: 8px;
+}
+
+/*******************
+ ICONS-EXPANDED
+********************/
+
+.icons__expanded {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(50%);
+  gap: 8px;
+  padding: 0 16px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.icon-container-list__expanded {
+  height: 4.8rem;
+  background-color: #fff;
+  border-radius: 100px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  cursor: pointer;
+  transition: border 0.4s;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+
+.icon-container-list__expanded:first-child {
+  position: relative;
+}
+
+.icon-container-list__expanded:hover {
+  border: 1px solid #3e3e3e;
+  background-color: #f3f3f3;
+  box-shadow: none;
+}
+
+.action-done {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e3e3e;
+  color: #fff;
+  top: -50px;
+  width: 100%;
+  height: 4.8rem;
+  border-radius: 1000px;
+  transition: all 0.8s;
+}
+
+.action-done svg path {
+  fill: #fff;
+}

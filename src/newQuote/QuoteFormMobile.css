@@ -1,0 +1,92 @@
+.fixed {
+  position: fixed;
+  z-index: 10;
+  margin-bottom: 0 !important;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button_fixed {
+  background-color: #3e3e3e;
+  width: 323px;
+  height: 4.8rem;
+  border-radius: 1000px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.button_fixed span {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: "Source Code Pro", sans-serif;
+  margin-right: 8px;
+}
+
+.button_fixed path {
+  fill: #fff;
+}
+
+.modal-box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f3f3f3;
+  z-index: 15;
+}
+
+.modal-form {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 94vh;
+  width: 95vw;
+  background-color: #fff;
+  z-index: 20;
+  overflow-y: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.icons-form__modal {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stroke {
+  border: 1px solid #3e3e3e;
+}
+
+.title-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 18;
+  margin: 10px 10px;
+}
+
+.title {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 5px auto;
+}
+
+.modal-author {
+  margin: 260px 0 40px 0;
+}
+
+.new-quote__modal label {
+  text-transform: none !important;
+}
+
+#dismiss-icon {
+  background-color: #f3f3f3;
+  box-shadow: none;
+}

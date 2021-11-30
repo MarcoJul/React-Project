@@ -1,0 +1,180 @@
+/*******************
+  LAYOUT & TEXT
+********************/
+
+.suggested-quote {
+  margin: 3rem 0;
+  position: relative;
+}
+
+.suggested-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quotemarks {
+  position: absolute;
+  height: 7.3rem;
+  z-index: -2;
+}
+
+.text-quote {
+  font-family: "Source Serif Pro", serif;
+  color: #3e3e3e;
+  font-size: 3.2rem;
+  font-style: italic;
+  margin: 6.3rem 0 0.8rem 0;
+}
+
+.author-quote {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0 0 2.4rem 0;
+}
+
+/*******************
+  ICONS
+********************/
+
+.suggested-icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  align-self: flex-end;
+  display: flex;
+  gap: 8px;
+  margin-right: 24px;
+}
+
+.save-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.icon-container,
+.icon-container-suggested__expanded {
+  height: 4.8rem;
+  width: 4.8rem;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.icon-container:hover,
+.icon-container-suggested__expanded:hover {
+  border: 1px solid #3e3e3e;
+  background-color: #f3f3f3;
+  box-shadow: none;
+}
+
+/*******************
+ EXPANDED ICONS
+********************/
+
+.icon-container-suggested__expanded {
+  width: 18rem;
+  border-radius: 100px;
+  border: 1px solid #fff;
+}
+
+.button-label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 8px;
+  margin-left: 4px;
+}
+
+/*******************
+ DISMISSED SUGGESTION
+********************/
+
+.blank {
+  height: 11.8rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+}
+
+.blank p {
+  font-size: 1.6rem;
+  color: #6e6e6e;
+}
+
+.action {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #6e6e6e;
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#reset-btn {
+  cursor: pointer;
+}
+
+#reset-btn path {
+  fill: #6e6e6e;
+}
+#reset-btn path:hover {
+  fill: #3e3e3e;
+}
+
+/*******************
+ LOADING SUGGESTION
+********************/
+
+.loading-screen {
+  height: 15.5rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+@media screen and (max-width: 767px) {
+  .suggested-flex {
+    flex-direction: column;
+  }
+
+  .suggested-icons {
+    position: initial;
+  }
+  .quotemarks {
+    height: 60px;
+  }
+
+  .text-quote {
+    font-size: 2.4rem;
+    margin-top: 4.8rem;
+  }
+
+  .icon-container-suggested__expanded {
+    width: 120px;
+  }
+
+  /*******************
+ DISMISSED SUGGESTION
+********************/
+
+  .blank {
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .blank p {
+    margin: 0;
+  }
+
+  .action {
+    margin: 0;
+  }
+}
